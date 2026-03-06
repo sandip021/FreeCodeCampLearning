@@ -1,0 +1,62 @@
+/* General page styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Main container */
+body {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Main title */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+}
+
+/* Section headings */
+h2 {
+    color: #34495e;
+    margin-top: 30px;
+}
+
+/* Lists */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* List items */
+li {
+    background: white;
+    margin: 8px 0;
+    padding: 10px 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+/* Hover effect */
+a:hover {
+    color: #e74c3c;
+}
+
+/* Paragraph text */
+p {
+    text-align: center;
+    color: #555;
+}
