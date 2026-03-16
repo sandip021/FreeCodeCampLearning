@@ -1,0 +1,28 @@
+* {
+  font-family: Sans-serif
+}
+#email {
+  padding: 50px;
+  margin-top: 50px;
+  width: 500px;
+  border: 2px;
+  box-sizing: border-box;
+}
+#confidential, #top-secret {
+  color:red ;
+  display: inline-block;
+  padding: 10px;
+  margin: 0 0 0 10px;
+  border: 3px solid red;
+}
+#confidential {
+  transform: rotate(-20deg);
+  margin-left: 150px;
+}
+#top-secret {
+  transform: rotate(34deg);
+  margin-left: 150px;
+}
+.blurred {
+  filter: blur(3px);
+}
