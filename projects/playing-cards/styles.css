@@ -1,0 +1,56 @@
+#playing-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: palegreen;
+}
+
+.card {
+  margin: 15px;
+  background: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 35px;
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  height: 350px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(127, 127, 127, 0.5)
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+.middle {
+  width: auto;
+  font-size: 75px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+}
+.right {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  transform: rotate(180deg)
+}
+
+.red {
+  color: red
+}
+.upside {
+  transform: rotate(180deg)
+}
