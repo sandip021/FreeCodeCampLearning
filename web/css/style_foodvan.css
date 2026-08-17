@@ -1,0 +1,120 @@
+:root {
+  --yellow: #f9d94a; /* primary background */
+  --green: #1b5e20;  /* primary text */
+  --white: #ffffff; /* accent / third shade */
+  --dark: #1f1f1f;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--yellow);
+  color: var(--green);
+  line-height: 1.6;
+}
+
+header {
+  background-color: var(--yellow);
+  color: var(--green);
+  padding: 2rem 1rem;
+  text-align: center;
+  border-bottom: 6px solid var(--green);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+header p {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+}
+
+nav {
+  background-color: var(--green);
+  padding: 0.75rem;
+  text-align: center;
+}
+
+nav a {
+  color: var(--white);
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 2.5rem 1.5rem;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.section-title {
+  color: var(--green);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 4px solid var(--white);
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.menu-item {
+  border: 3px solid var(--green);
+  border-radius: 14px;
+  padding: 1.2rem;
+  background-color: var(--white);
+  color: var(--green);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.menu-item h3 {
+  margin-top: 0;
+  color: var(--green);
+}
+
+.price {
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.tag {
+  display: inline-block;
+  background-color: var(--green);
+  color: var(--white);
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.about {
+  background-color: var(--white);
+  border-left: 6px solid var(--green);
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: var(--green);
+  color: var(--white);
+  text-align: center;
+  padding: 1.2rem;
+  margin-top: 3rem;
+}
+
+footer p {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+}
